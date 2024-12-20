@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثانوية المتفوقين الثانية - الناصرية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Badeen+Display&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Badeen+Display&family=Oi&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=فُسطاط:wght@200..800&family=كاتيبه&display=swap" rel="stylesheet"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+      <link rel="preconnect" href="https://fonts.gstatic.com"  crossorigin> 
+      <link href="https://fonts.googleapis.com/css2?family=فُسطاط:wght@200..800&family=كاتيبه&family=ريم+كوفي+حبر&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Fusstat:wght@200..800&family=Katibeh&family=Oi&family=Readex+Pro:wght@160..700&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #0a2463;
+            --secondary-color: #247ba0;
+            --accent-color: #ffd700;
+            --text-color: #2d3748;
+            --light-bg: #f7fafc;
+            --success-color: #38a169;
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        }
+
+        header {
+    display: flex;
+    align-items: center;
+    justify-content:space-around; /* توزيع العناصر بين اليمين واليسار */
+    background: linear-gradient(-45deg, #88d5ff, #fc2525, #0b0089, #1231fc);
+    background-size: 400% 400%;
+    animation: gradient-animation 10s ease infinite;
+    padding: 0px;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    position: relative;
+    text-align: center;
+margin-bottom: -80px;
+    border-bottom: 1px solid #0b0089; /* اللون والسُمك */
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header h1 {  
+    font-family: "Amiri", serif;
+font-size: 110%;
+
+
+}
+
+
+
+
+
+header p {  
+      font-family: "Katibeh", serif;
+font-size: 200%;
+margin-top: -15px;
+}
+header p:hover {
+    color: 
+    
+    
+
+    
+    
+    #cfcbcb; /* تغيير لون النص عند التمرير عليه */
+    transform: scale(1.107); /* تكبير النص عند التمرير عليه */
+    transition: all 1.2s ease; /* تأثير التحول بشكل ناعم */
+}
+header h1:hover {
+    color: 
+    
+    
+
+    
+    
+    #cfcbcb; /* تغيير لون النص عند التمرير عليه */
+    transform: scale(1.17); /* تكبير النص عند التمرير عليه */
+    transition: all 1.2s ease; /* تأثير التحول بشكل ناعم */
+     
+
+}
+
+
+
+
+
+
+/* تخصيص الشعار */
+header .logo {
+    display: flex;
+    align-items: center; /* محاذاة عمودية */
+    justify-content: center; /* محاذاة أفقية */
+    
+
+}
+
+header .logo-left img, header .logo-right img {
+    max-width: 80px;
+    border-radius: 50%;
+    
+    
+    transition: transform 0.7s ease, box-shadow 0.3s ease;
+margin-left: auto;
+
+}
+
+header .logo-left img:hover, header .logo-right img:hover {
+    transform: scale(1.14);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* الشعار الأيسر */
+header .logo-left {
+    display: flex;
+    justify-content:left;
+}
+
+/* الشعار الأيمن */
+header .logo-right {
+    display: flex;
+    justify-content:right;
+}
+
+
+
+
+
+
+
+header h1 {
+    margin: 0;
+}
+        body {
+            background: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .hero {
+            min-height: 200px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 0px;
+            padding-top: 10px;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/api/placeholder/1920/1080') center/cover;
+            opacity: 0.1;
+            animation: pulse 4s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.1; }
+            50% { opacity: 0.15; }
+            100% { opacity: 0.1; }
+        }
+
+        .hero-content {
+            text-align: center;
+            color: white;
+            max-width: 800px;
+            padding: 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: fadeInDown 1s ease;
+        }
+
+        .hero p {
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.5s backwards;
+        }
+
+        .navbar {
+            max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+        }
+
+        .navbar.scrolled {
+            padding: 0.7rem 0;
+            background: rgba(255, 255, 255, 0.98);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .nav-logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-logo i {
+            color:#000000;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--accent-color);
+            transform: scaleX(0);
+            transition: var(--transition);
+        }
+
+        .nav-link:hover::after {
+            transform: scaleX(1);
+        }
+
+        .section {
+            padding: 6rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+            padding-top: 1px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: var(--accent-color);
+        }
+
+        .about-card {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background:#ffd700;
+            opacity: 0.3;
+            border-radius: 0 0 0 100%;
+        }
+   
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--light-bg);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .stat-card {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .social-link {
+            color: white;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .social-link:hover {
+            color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .nav-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .section {
+                padding: 4rem 0;
+            }
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--primary-color);
+            color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transition: var(--transition);
+            box-shadow: var(--card-shadow);
+        }
+
+        .scroll-to-top.visible {
+            opacity: 1;
+        }
+
+        .scroll-to-top:hover {
+            background: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<!-- رأس الصفحة -->
+<header class="header-container">
+    <div class="logo-left">
+        <img src="assets\images\شعار التربية.png" alt="School Logo">
+    </div>
+    <div class="text-container">
+        <h1>ثانوية المتفوقين الثانية في الناصرية</h1>
+        <p>حول الثانوية</p>
+    </div>
+    <div class="logo-right">
+        <img src=" assets\images\school_logo.jpg" alt="School Logo1">
+        
+        </header>
+    
+
+<body>
+
+        </div>
+    </nav>
+
+ 
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>حول المدرسة</h2>
+            </div>
+            <div class="about-card animate__animated animate__fadeIn">
+                       <p..>مدرسة حكومية تابعة لوزارة التربية العراقية / مديرية تربية ذي قار . </p..>   
+                
+                <p>تأسست عام ٢٠٢٣ م وذلك في ظل كثرة اعداد الطلبة المتفوقين في محافظة ذي قار . </p>
+                       <p>
+
+                      تخضع الثانوية لقوانين التعليم الثانوي ومقررات واشراف المديرية العامة لتربية ذي قار، وتقدم الثانوية الخدمات والرعاية العلمية للطلبة المتفوقين من خلال اساتذة اكفاء ومختبرات علمية وتعاون علمي مع مؤسسات المجتمع المدني وتنصب اهداف الثانوية حول تزويد الوطن الحبيب بالخبرات العلمية والطلبة من رواد العلم لضمان ازدهار بلدنا الحبيب.
+                </p>
+
+                </div>
+
+
+            
+            <div class="features">
+                <div class="feature-card animate__animated animate__fadeInUp">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>كادر تعليمي متميز</h3>
+                    <p>يضم الكادر التعليمي نخبة من الأساتذة المتخصصين والحاصلين على أعلى الشهادات في المجال.</p>
+                </div>
+                
+                <div class="feature-card animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
+                    <div class="feature-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>مختبرات علمية</h3>
+                    <p>تضم المدرسة مختبرات مجهزة بأحدث الأجهزة العلمية للفيزياء والكيمياء والأحياء، مما يتيح للطلاب فرصة التطبيق العملي.</p>
+                               <a href="https://www.facebook.com/" class="nav-link"></a>
+                            </div>
+                
+                <div class="feature-card animate__animated animate__fadeInUp" style="animation-delay: 0.4s">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>تعاون مجتمعي</h3>
+                    <p>نفتخر بشراكاتنا مع المؤسسات التعليمية والمجتمعية في المحافظة، مما يوفر فرصاً إضافية لطلابنا.</p>
+                </div> 
